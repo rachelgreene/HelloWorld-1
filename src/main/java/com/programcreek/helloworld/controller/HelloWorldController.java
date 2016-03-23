@@ -49,8 +49,8 @@ public class HelloWorldController {
 	@ResponseBody 
 	public  UserDetails getUser() { 
     UserDetails userDetails = new UserDetails(); 
-     userDetails.setUserName("Geetika"); 
-     userDetails.setEmailId("geetika.a.arora@gmail.com"); 
+    userDetails.setUserName("Geetika"); 
+    userDetails.setEmailId("geetika.a.arora@gmail.com"); 
      return userDetails; 
  
 	    } 
